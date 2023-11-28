@@ -129,6 +129,7 @@ export const App = () => {
                   {/* eslint-disable-next-line jsx-a11y/control-has-associated-label */}
                   {query && (
                     <button
+                      aria-label="Close"
                       type="button"
                       className="delete"
                       onClick={() => setQuery('')}
